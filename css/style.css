@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif; 
+
+*/
+
+body{
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+header{
+  background-image: linear-gradient(20deg,rgb(255, 255, 255),rgb(236, 236, 236));
+}
+.bag1{
+    width: 80%;
+}
+.navbar-brand{
+    letter-spacing: 1px;
+    font-weight: bold!important;
+}
+.l1{
+    color: rgb(255, 0, 128);
+}
+.shop{
+    width: 30px;
+}
+.l2{
+    color: rgb(0, 127, 231);
+}
+.buy{
+    background-image: linear-gradient(30deg,rgb(255, 0, 119),rgb(255, 0, 179));
+    border-radius:8px;
+}
+.hdr1{
+    font-weight: bold;
+    color: rgb(255, 0, 119);
+}
+
+.hdr2{
+    font-weight: bold;
+    color: rgb(162, 0, 255);
+}
+.product-type{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(100, 0, 131);
+}
+.shop2{
+    width: 20px;
+}
+.card-body{
+    padding: 5px!important;
+}
+.card-header{
+    overflow: hidden;
+    position: relative!important;
+    border-radius: 18px!important;
+}
+
+.prd{
+        transition: all 0.2s ease-in-out 0.1s!important;
+
+}
+.card:hover .prd{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0.1s!important;
+
+}
+.card{
+    transition: all 0.2s ease-in-out 0.1s!important;
+    cursor: pointer;
+ box-shadow: 0px 8px 8px 0px rgba(128, 128, 128, 0.329);
+    border:0;
+    border-radius: 18px!important;
+    overflow: hidden;
+}
+
+.card:hover{
+    transition: all 0.2s ease-in-out 0.1s!important;
+    cursor: pointer;
+ box-shadow: 0px 4px 8px 0px rgba(128, 128, 128, 0.767);
+    border:0;
+    border-radius: 18px!important;
+    overflow: hidden;
+}
+.price{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(89, 0, 255);
+}
+.icon img{
+    width: 100%;
+}
+
+.icon{
+    width: 120px;
+}
+
+.see{
+    background-color: rgb(255, 0, 170);
+    color: white;
+}
+.banner2{
+    box-shadow: 0px 5px 12px 0px rgba(128, 128, 128, 0.329);
+    background: url(/img/Icons/BNR.gif);
+    background-size: 100% 100%;
+    border-radius: 11px;
+}
+
+
+.newletter{
+    background: rgb(0, 32, 32);
+    background-size:100% 100%;
+    border-radius: 11px;
+    padding-bottom: 120px!important;
+}
+
+input{
+    border-top-left-radius: 40px!important;
+    border-bottom-left-radius: 40px!important;
+}
+input:focus{
+    color: rgb(255, 0, 119)!important;
+    border: 2px solid rgb(255, 0, 119)!important;
+}
+::placeholder{
+    color: rgba(255, 0, 119, 0.534)!important;
+}
+.adn{
+    border: 0!important;
+    background: rgb(255, 0, 119)!important;
+    border-top-right-radius: 40px!important;
+    border-bottom-right-radius: 40px!important;
+}
